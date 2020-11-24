@@ -14,3 +14,5 @@ iptables -t mangle -A PREROUTING -s 91.137.27.130 -m comment --comment "mj12 bot
 iptables -t mangle -A PREROUTING -s 5.9.144.234 -m comment --comment "mj12 bot" -j DROP
 iptables -t mangle -A PREROUTING -s 148.251.9.145 -m comment --comment "mj12 bot" -j DROP
 iptables -t mangle -A PREROUTING -s 69.30.226.234 -m comment --comment "mj12 bot" -j DROP
+iptables -t mangle -A PREROUTING -s 199.58.86.206 -m comment --comment "mj12 bot" -j DROP
+iptables -t mangle -A PREROUTING -s 69.30.213.202 -m comment --comment "mj12 bot" -j DROP
