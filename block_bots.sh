@@ -10,3 +10,7 @@ iptables -t mangle -A PREROUTING -s 54.36.149.15/24 -m comment --comment "ahref 
 iptables -t mangle -A PREROUTING -s 148.251.120.201 -m comment --comment "mj12 bot" -j DROP
 iptables -t mangle -A PREROUTING -s 158.69.245.214 -m comment --comment "mj12 bot" -j DROP
 iptables -t mangle -A PREROUTING -s 95.91.76.136 -m comment --comment "mj12 bot" -j DROP
+iptables -t mangle -A PREROUTING -s 91.137.27.130 -m comment --comment "mj12 bot" -j DROP
+iptables -t mangle -A PREROUTING -s 5.9.144.234 -m comment --comment "mj12 bot" -j DROP
+iptables -t mangle -A PREROUTING -s 148.251.9.145 -m comment --comment "mj12 bot" -j DROP
+iptables -t mangle -A PREROUTING -s 69.30.226.234 -m comment --comment "mj12 bot" -j DROP
